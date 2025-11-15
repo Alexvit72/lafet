@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main_bunner {
+  background: url('/main_bunner.jpg') 100% 50% / cover no-repeat;
+}
