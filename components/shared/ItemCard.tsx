@@ -1,22 +1,23 @@
 import Image from "next/image";
-import { Card, Divider  } from 'antd';
+import { Card } from 'antd';
 import { PhoneFilled } from '@ant-design/icons';
 import Link from "next/link";
+import CustomButton from '@/components/shared/CustomButton';
+import { Item } from '@/types';
 
 const { Meta } = Card;
 
 type ItemCardProps = {
-  item: { image: string, title: string, description: string, price: string };
+  item: Item;
 };
 
 const ItemCard = ({ item }: ItemCardProps) => {
   return (
     <Card
-      hoverable
       style={{ width: 400 }}
       cover={
         <div style={{ minHeight: '300px' }}>
-          <Link href="/trailers">
+          <Link href={`/trailers/${item.id}`}>
             <Image
               draggable={false}
               width={400}
@@ -28,9 +29,9 @@ const ItemCard = ({ item }: ItemCardProps) => {
         </div>
       }
       actions={[
-        <a key="phone" href='tel:+375296344554'>
-          <PhoneFilled className='text-2xl font-light' />
-        </a>,
+        <CustomButton key="phone" icon={<PhoneFilled className='text-2xl font-light' />}>
+          <a href='tel:+375296344554' style={{ color: '#fff' }}>Заказать</a>
+        </CustomButton>,
       ]}
     >
       <Meta title={item.title} description={item.description} />

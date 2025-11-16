@@ -7,6 +7,8 @@ const { Header, Content, Footer } = Layout;
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
+  const route = router.route;
+  
 
   const items = [
     { key: "/", label: <Link href="/">Главная</Link> },
@@ -16,6 +18,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
     { key: "/contacts", label: <Link href="/contacts">Контакты</Link> },
   ];
 
+
   return (
     <Layout>
       <Header style={{ display: "flex", alignItems: "center" }}>
@@ -23,7 +26,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
         <Menu
           theme="dark"
           mode="horizontal"
-          defaultSelectedKeys={["/"]}
+          selectedKeys={[route]}
           items={items}
           style={{ flex: 1, minWidth: 0 }}
         />

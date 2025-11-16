@@ -1,5 +1,5 @@
-import { Button } from 'antd';
 import { PhoneFilled } from '@ant-design/icons';
+import CustomButton from '@/components/shared/CustomButton';
 
 export default function TopBunner() {
   return (
@@ -14,15 +14,9 @@ export default function TopBunner() {
         Без выходных с 8.00 до 20.00
       </div>
       <div>
-        <Button
-          variant='solid'
-          color='volcano'
-          size='large'
-          icon={<PhoneFilled style={{ fontSize: '24px' }} />}
-          style={{ padding: '28px 20px' }}
-        >
+        <CustomButton icon={<PhoneFilled style={{ fontSize: '24px' }} />}>
           <a href='tel:+375296344554' className='text-2xl font-medium mb-1'>Позвонить</a>
-        </Button>
+        </CustomButton>
       </div>
     </div>
   );

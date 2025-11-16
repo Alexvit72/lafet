@@ -1,17 +1,15 @@
 import ItemCard from '@/components/shared/ItemCard';
-import { trailers, lafets } from '@/data';
+import { trailers } from '@/data';
 
 
 export default function Catalog() {
-  const items = [...trailers, ...lafets];
-
   return (
     <div className='p-16'>
       <h2 className='mb-16 text-center text-6xl font-bold text-orange-700'>
-        Каталог
+        Прицепы
       </h2>
       <div className='flex flex-wrap justify-between'>
-        {items.map((item, index) => (
+        {trailers.map((item, index) => (
           <div key={index} className='mb-8'>
             <ItemCard item={item} />
           </div>
