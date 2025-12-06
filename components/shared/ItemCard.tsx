@@ -14,9 +14,9 @@ type ItemCardProps = {
 const ItemCard = ({ item }: ItemCardProps) => {
   return (
     <Card
-      style={{ width: 400 }}
+      className="min-w-2xs sm:min-w-sm"
       cover={
-        <div style={{ minHeight: '300px' }}>
+        <div className="min-w-xs min-h-[300px]">
           <Link href={`/trailers/${item.id}`}>
             <Image
               draggable={false}

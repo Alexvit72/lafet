@@ -16,20 +16,19 @@ const TrailerItem = () => {
   if (!item) return <></>;
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center p-8 sm:p-16">
       <div>
         <Image
           draggable={false}
-          width={600}
-          height={600}
+          width={800}
+          height={800}
           alt="image"
           src={item.image}
         />
       </div>
       <div>
         <Card
-          hoverable
-          style={{ width: 400 }}
+          className="w-full max-w-[800px] xl:max-w-sm"
           actions={[
             <CustomButton key="phone" icon={<PhoneFilled className='text-2xl font-light' />}>
               <a href='tel:+375296344554' style={{ color: '#fff' }}>Заказать</a>
