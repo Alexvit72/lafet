@@ -1,7 +1,7 @@
 import { Item } from '@/types';
 import item_1 from './public/item_1.png';
 import item_2 from './public/item_2.png';
-import item_3 from './public/3.png';
+import item_3 from './public/item_3.png';
 
 export const trailers: Array<Item> = [
   {
