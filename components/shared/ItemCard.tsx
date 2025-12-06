@@ -23,7 +23,7 @@ const ItemCard = ({ item }: ItemCardProps) => {
               width={400}
               height={400}
               alt="image"
-              src={item.image}
+              src={`/item_${item.id}.png`}
             />
           </Link>
         </div>
