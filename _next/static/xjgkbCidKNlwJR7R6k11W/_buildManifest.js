@@ -1,6 +1,6 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/9dae9bb5af285aa4.js"
+    "static/chunks/fe43a3ea38efd4a2.js"
   ],
   "/_error": [
     "static/chunks/3bc5381d8bc9e8c2.js"
@@ -15,16 +15,16 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1adc4ef9b84a493d.js"
   ],
   "/lafets": [
-    "static/chunks/bf35a4ba55f412d3.js"
+    "static/chunks/6d4f087ef4559a10.js"
   ],
   "/lafets/[id]": [
-    "static/chunks/7883a78314c6af1a.js"
+    "static/chunks/938ec02148177807.js"
   ],
   "/trailers": [
-    "static/chunks/b3c22599b2c182fe.js"
+    "static/chunks/61c3c4f95e373ef4.js"
   ],
   "/trailers/[id]": [
-    "static/chunks/0080362cab7a9048.js"
+    "static/chunks/faf060e4ada67f9a.js"
   ],
   "__rewrites": {
     "afterFiles": [],
