@@ -3,8 +3,8 @@ __turbopack_load_page_chunks__("/lafets/[id]", [
   "static/chunks/2f14b9b5129dd5bf.js",
   "static/chunks/e421e190ed3461ca.js",
   "static/chunks/f86fe2714000df3f.js",
-  "static/chunks/58cbd7fbdaa4b9d6.js",
-  "static/chunks/a2a193b106893ad9.js",
+  "static/chunks/b73e2b31e1d423e0.js",
+  "static/chunks/f3f910d5396f309f.js",
   "static/chunks/da346346c4d9ccca.js",
-  "static/chunks/turbopack-3acd5b6f5c434d1c.js"
+  "static/chunks/turbopack-45f802c44a248db1.js"
 ])

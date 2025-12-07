@@ -1,39 +1,34 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/611c9516918758ef.js"
+    "static/chunks/98fd308308e63e01.js"
   ],
   "/_error": [
-    "static/chunks/1908bf29ecdf13ab.js"
+    "static/chunks/3bc5381d8bc9e8c2.js"
   ],
   "/conditions": [
-    "static/chunks/a7b3aac0e165f23c.js"
+    "static/chunks/df693c1a0945dbd2.js"
   ],
   "/contacts": [
-    "static/chunks/c4a0722bbde856f2.js"
+    "static/chunks/9b5448cca4cc68fa.js"
   ],
   "/examplePage": [
-    "static/chunks/2bca66c4e73eb774.js"
+    "static/chunks/1adc4ef9b84a493d.js"
   ],
   "/lafets": [
-    "static/chunks/5c0178cf84690132.js"
+    "static/chunks/522fd5800c90b000.js"
   ],
   "/lafets/[id]": [
-    "static/chunks/8dceef6165dd2708.js"
+    "static/chunks/6548b38fd36899ea.js"
   ],
   "/trailers": [
-    "static/chunks/7391757babc6f0ac.js"
+    "static/chunks/ed8a9ab9a423e07e.js"
   ],
   "/trailers/[id]": [
-    "static/chunks/1b3bdc3760f67243.js"
+    "static/chunks/56c447d0a3637b6b.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [
-      {
-        "source": "/lafet//_next/:path+",
-        "destination": "/lafet/_next/:path+"
-      }
-    ],
+    "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
