@@ -10,7 +10,7 @@ export default function Catalog() {
       <h2 className='mb-8 sm:mb-16 text-center text-4xl sm:text-6xl font-bold text-orange-700'>
         Каталог
       </h2>
-      <div className='flex flex-wrap justify-center sm:justify-between'>
+      <div className='flex flex-wrap justify-center sm:justify-evenly'>
         {items.map((item, index) => (
           <div key={index} className='mb-8'>
             <ItemCard item={item} />
